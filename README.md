@@ -1,1 +1,1 @@
-# Matlab-Mnist
+# handwritten digit recognition matlab
