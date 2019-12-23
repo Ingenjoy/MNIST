@@ -2,8 +2,8 @@
 clear all;
 
 % load mnist dataset
-images_Test = loadMNISTImages('t10k-images-idx3-ubyte');
-labels_Test = loadMNISTLabels('t10k-labels-idx1-ubyte 2');
+images_Test = loadMNISTImages('data/t10k-images-idx3-ubyte');
+labels_Test = loadMNISTLabels('data/t10k-labels-idx1-ubyte');
 
 % reshape images to 4 dimensional matrices
 images_Test = reshape(images_Test, 28, 28, 1, []);

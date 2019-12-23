@@ -2,8 +2,8 @@
 clear all;
 
 % load mnist dataset
-images_Train = loadMNISTImages('train-images-idx3-ubyte');
-labels_Train = loadMNISTLabels('train-labels-idx1-ubyte');
+images_Train = loadMNISTImages('data/train-images-idx3-ubyte');
+labels_Train = loadMNISTLabels('data/train-labels-idx1-ubyte');
 
 % reshape images to 4 dimensional matrices
 images_Train = reshape(images_Train, 28, 28, 1, []);
